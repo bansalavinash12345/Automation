@@ -5,6 +5,6 @@ for item in mylist:
     form_data = {'entry.1156409':'Avinash Bansal',
             'entry.210055283':'190205',
             'entry.192452008': 'Yes',
-            'entry.446099277': 'https://github.com/bansalavinash12345/Automation/blob/master/python%20script%20for%20google%20form}
+            'entry.446099277': 'https://github.com/bansalavinash12345/Automation'}
     user_agent = {'Referer':'https://docs.google.com/forms/d/e/1FAIpQLSfxsg59ggPdonbOLakPTwn_qQk-P0euw531kGt2pdDxSlnB9Q/viewform','User-Agent': "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.52 Safari/537.36"}
     r = requests.post(url, data=form_data, headers=user_agent)
